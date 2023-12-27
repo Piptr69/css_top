@@ -1,0 +1,19 @@
+.left-button,
+.right-button {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+    float: left;
+    outline-width: 2px;
+    outline-style: solid;
+}
+
+.left-button {
+    color: white;
+    background-color: black;
+    outline-style: inset;
+    outline-color: gray;
+}
+.right-button {
+    background-color: yellow;
+    outline-color: black;
+}
