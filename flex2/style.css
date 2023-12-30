@@ -1,33 +1,29 @@
 .container {
     background-color: bisque;
     margin: 8px;
-    padding: 10px 8px;
     display: flex;
+    padding: 10px 8px;
     justify-content: space-between;
 }
 
 .number-list,
 .number-list2 {
     flex-basis: 200px;
-    justify-content: flex-end;
     display: flex;
     align-items: center;
 }
 
 .item {
-    flex: 1;
     flex-direction: row;
     color: blue;
     font-size: 20px;
-    font-weight: 700px;
+    font-weight: 600;
     padding: 2px 8px;
     background-color: white;
     margin-right: 16px;
 }
 
 .logo {
-    justify-content: center;
-    text-align: center;
     background-color: white;
     color: orangered;
     font-size: 36px;
