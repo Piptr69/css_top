@@ -5,11 +5,10 @@
     background-color: rgb(51, 126, 218);
     justify-content: center;
     align-items: center;
-    
 }
 
 .item {
-    background-color: lightpink;
+    background-color: rgb(215, 89, 173);
     height: 70px;
     width: 70px;
     text-align: center;
