@@ -16,6 +16,7 @@ body {
     padding: 8px;
     border-radius: 10px;
 }
+
 .item.one{
     display: flex;
     height: 20px;
