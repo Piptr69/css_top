@@ -44,6 +44,51 @@ body {
     margin-bottom: 8px;
 }
 
+.item.two .center-text{
+    margin-bottom: 8px;
+}
+
 .item.two .center-buttons {
     display: flex;
+}
+
+.button {
+    margin: 4px 8px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    width: 80px;
+    height: 20px;
+    padding: 4px 0px;
+    margin-left: 0;
+}
+
+.button.one {
+    background-color: rgb(64, 104, 223);
+    color: white;
+}
+
+.button.two {
+    color:  rgb(64, 104, 223);
+    border: 1px solid gray;
+}
+
+.item.three {
+    display: flex;
+    margin: 0;
+    border-radius: 10px;
+    background-color: lightgray;
+    height: 20px;
+    width: 20px;
+    flex-shrink: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.right-button {
+    display: flex;
+    font-size: 14px;
+    font-weight: 1000;
+    align-items: center;
+    color: gray;
 }
