@@ -6,4 +6,10 @@ body {
     color: rgb(93, 45, 139);
     display: flex;
     background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-panel {
+    display: flex;
 }
