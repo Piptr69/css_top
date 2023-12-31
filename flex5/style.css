@@ -1,6 +1,5 @@
 body, html {
     height: 100%;
-    margin: 0;
 }
 
 body {
@@ -8,21 +7,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
 }
 
 .container{
     display: flex;
     flex-direction: column;
     background-color: white;
-    width: 200px;
+    width: 400px;
+    padding: 8px;
+    border-radius: 10px;
 }
 
-.top-header {
-    display: flex;
-    justify-content: space-between;
-}
-.header-text {
-    font-weight: 700;
-    font-size: 18px;
-}
