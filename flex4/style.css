@@ -17,3 +17,12 @@ img {
     width: 200px;
     height: auto;
 }
+
+.text {
+    width: 200px;
+    font-size: 18px;
+    text-align: center;
+}
+.fruit {
+    margin: 52px;
+}
