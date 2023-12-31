@@ -26,13 +26,24 @@ body {
     color: rgb(64, 104, 223);
     background-color: rgb(230, 230, 250);
     
-    margin-right: 16px;
+    margin-right: 12px;
     padding: 8px;
     justify-content: center;
 }
 
 .circle {
     display: flex;
-    font-size: 30px;
+    font-size: 32px;
+    font-weight: 700;
     align-items: center;
+}
+
+.item.two .header {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.item.two .center-buttons {
+    display: flex;
 }
