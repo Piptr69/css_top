@@ -18,17 +18,21 @@ body {
 }
 .item.one{
     display: flex;
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     flex-shrink: 0;
     border-radius: 50%;
 
     color: rgb(12, 37, 146);
     background-color: rgb(95, 95, 182);
+    
     margin-right: 16px;
     padding: 8px;
+    justify-content: center;
 }
 
 .circle {
+    display: flex;
     font-size: 30px;
+    align-items: center;
 }
