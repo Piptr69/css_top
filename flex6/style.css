@@ -74,7 +74,7 @@ body, html {
     text-align: center;
     align-items: center;
     margin-left: 8px;
-    padding: 4px;
+    padding: 4px 8px;
     border: darkgray solid 2px;
     color: darkgray;
 }
