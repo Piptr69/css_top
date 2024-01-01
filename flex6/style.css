@@ -2,6 +2,7 @@ body, html {
     height: 100%;
     width: 100%;
     margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -10,7 +11,6 @@ body, html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 .footer,
@@ -24,6 +24,10 @@ body, html {
 .left-panel {
     display: flex;
     align-items: flex-end;
-
 }
 
+.item {
+    padding: 8px;
+    color: rgb(87, 79, 79);
+    font-weight: 700;
+}
