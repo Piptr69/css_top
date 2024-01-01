@@ -31,3 +31,29 @@ body, html {
     color: rgb(87, 79, 79);
     font-weight: 700;
 }
+
+
+#logo {
+    height: 300px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pasek{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+    padding: 4px;
+    border-radius: 50%;
+    width: 50%;
+}
