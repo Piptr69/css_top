@@ -3,12 +3,20 @@ body, html {
     height: 100%;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 .footer,
 .header {
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-panel,
+.left-panel {
     display: flex;
 }
 
-.header.right-item {
-    display: flex;
-    justify-content: flex-end;
-}
