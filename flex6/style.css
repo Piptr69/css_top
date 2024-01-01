@@ -1,11 +1,14 @@
 body, html {
-    width: 100%;
     height: 100%;
+    margin: 0;
 }
 
 .container {
+    height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+
 }
 
 .footer,
@@ -18,5 +21,7 @@ body, html {
 .right-panel,
 .left-panel {
     display: flex;
+    align-items: flex-end;
+
 }
 
