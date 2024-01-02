@@ -8,11 +8,24 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    color: white;
+    align-items: center;
+    padding-left: 12px;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: rgb(139, 0, 139);
+    flex-basis: 7.5%;
 }
 
 .footer {
     display: flex;
     justify-content: center;
+    flex-basis: 7.5%;
 }
 
 .main-body {
@@ -21,6 +34,6 @@ body {
 }
 
 .left-panel {
-    padding-right: 100px;
+    flex-basis: 15%;
     background-color: rgb(65, 105, 225);
 }
