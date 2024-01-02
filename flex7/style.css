@@ -26,6 +26,9 @@ body {
     display: flex;
     justify-content: center;
     flex-basis: 7.5%;
+    background-color: lightgray;
+    align-items: center;
+    color: purple;
 }
 
 .main-body {
