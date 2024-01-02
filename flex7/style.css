@@ -40,6 +40,19 @@ body {
 
 .item {
     border: solid lightgray 2px;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
+}
+
+.top-panel,
+.bottom-panel {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-panel {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: space-around;
 }
