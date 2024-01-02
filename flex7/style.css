@@ -14,3 +14,13 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.main-body {
+    display: flex;
+    flex-basis: 85%;
+}
+
+.left-panel {
+    padding-right: 100px;
+    background-color: rgb(65, 105, 225);
+}
