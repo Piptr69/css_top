@@ -59,3 +59,11 @@ body {
     width: 80%;
     justify-content: space-around;
 }
+
+.link {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+}
